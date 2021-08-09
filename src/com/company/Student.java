@@ -46,4 +46,26 @@ public class Student {
 
       this.feesPaid= this.feesPaid + fees;
   }
+
+
+  public int getStuid(){
+        return this.id;
+    }
+  public String getStuName(){
+      return this.name;
+  }
+
+  public int getStuGrade(){
+      return this.grade;
+  }
+
+  public int getStuFeesPaid(){
+      return this.feesPaid;
+  }
+
+  public int getStuTotalFees(){
+      return this.feesTotal;
+  }
+
+
 }

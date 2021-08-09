@@ -24,7 +24,7 @@ public class Teacher {
 
     // return id of the teacher
     public int getId(){
-        return id;
+        return this.id;
     }
 
     // return name of the teacher
