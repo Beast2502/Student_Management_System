@@ -8,7 +8,7 @@ public class Teacher {
     private int id;
     private String name;
     private int salary;
-
+    private int salaryRecieved;
     /**
      *Create new teacher object
      * @param id for the teacher
@@ -37,8 +37,9 @@ public class Teacher {
         return this.salary;
     }
 
-    public void setSalary(int salary){
-        this.salary= salary;
+    public void getSalary(int salaryRec){
+        this.salaryRecieved= salaryRec;
+        School.setTotalMoneySpent(salaryRec);
     }
 
 

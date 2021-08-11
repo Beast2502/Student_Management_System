@@ -48,8 +48,9 @@ public class School {
         return this.totalMoneySpent;
     }
 // salary given to the teachers is the money spent
-    public void setTotalMoneySpent(int moneySpent){
-        this.totalMoneyEarned -= moneySpent;
+    public static void setTotalMoneySpent(int moneySpent){
+        totalMoneySpent += moneySpent;
+        totalMoneyEarned -= moneySpent;
     }
 
 }

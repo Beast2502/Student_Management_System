@@ -27,6 +27,13 @@ public class Main {
         System.out.println("Mehul paid fees "+mehul.getStuFeesPaid());
         System.out.println("PSIT Earned "+ psit.getTotalMoneyEarned());
 
+        // School paid salary to lizzy
+        lizzy.getSalary(6000);
+        System.out.println("PSIT spent "+psit.getTotalMoneySpent());
+        System.out.println("PSIT Earned "+ psit.getTotalMoneyEarned());
+
+
+
 
     }
 }
