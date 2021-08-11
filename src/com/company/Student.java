@@ -45,6 +45,7 @@ public class Student {
   public void updateFeesPaid(int fees){
 
       this.feesPaid= this.feesPaid + fees;
+      School.setTotalMoneyEarned(fees);
   }
 
 
@@ -63,9 +64,12 @@ public class Student {
       return this.feesPaid;
   }
 
+
+
   public int getStuTotalFees(){
       return this.feesTotal;
   }
+
 
 
 }
